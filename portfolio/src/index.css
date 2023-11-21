@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: "Acron";
+    src: url("./assets/fonts/acron/Acorn-SemiBold.ttf");
+  }
+
+@font-face {
+    font-family: "gt";
+    src: url("./assets/fonts/gt/FontsFree-Net-GT-America-Regular-1.ttf");
+}
