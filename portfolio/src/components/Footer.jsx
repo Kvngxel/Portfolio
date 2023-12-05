@@ -4,7 +4,7 @@ export const Footer = () => {
   // Get the current year
   const currentYear = new Date().getFullYear();
   return (
-    <div>
+    <div className='h-[80vh] pt-44'>
         <div className="h-[29vh] flex justify-center relative pt-20 pb-10 pl-32 pr-40">        
             <div className="flex justify-start items-center w-2/3 bg-[#f6f3ef] relative max-sm:hidden ml-28 mr-10 rounded-[70px]">
             <svg className='ml-7' width="45" height="45" viewBox="0 0 41 40"  xmlns="http://www.w3.org/2000/svg">

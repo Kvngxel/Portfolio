@@ -81,28 +81,50 @@ export const Home = () => {
               <p className='flex justify-end text-[#364442] text-xl tracking-widest pb-1'>See</p>
               <p className='flex justify-end font-acron text-[#364442] text-4xl'>FIGMA</p>
             </div>
-            <img className='ml-52 mt-36 group-hover:mt-32 scale-[170%] rounded-2xl transition-all
+            <img className='ml-52 mt-32 group-hover:mt-28 scale-[170%] rounded-2xl transition-all
               duration-700 ease-in-out' 
               src={figma} alt='Locale Image'
               />
           </div>
         </div>
       </div> 
-      <div className='pt-24 pb-10'>
+      <div className='pt-32 pb-10'>
           <p className='text-center text-[16vh] text-pry leading-none font-bold font-acron'>In Progress.</p>
       </div>
-      <p className='text-center px-64 pb-4 text-lg text-pry font-body font-medium'>
+      <p className='text-center px-64 pb-10 pt-2 text-lg text-pry font-body font-medium'>
           Engage in diverse stages of design and development, ranging from personal side
           projects to ongoing product design and development initiatives.
       </p>     
-      <div className="h-[80vh] flex relative py-10 px-4">
-        <div className="w-1/3 bg-pry relative max-sm:hidden mx-5 rounded-[70px]">
-
+      <div>
+        <div className="h-[80vh] flex relative py-10 px-4">
+          {/* Left */}
+          <div className="w-[65%] h-[100%] hover:mt-1 bg-[#ffffff] hover:bg-[#fefefb] group relative max-sm:hidden mx-5
+              rounded-[70px] overflow-hidden transition-all duration-500 ease-in-out shadow-xs hover:shadow-lg"
+            >
+              <div className='mr-12 mt-10'>
+                <p className='flex justify-end text-[#364442] text-xl tracking-widest pb-1'>My</p>
+                <p className='flex justify-end font-acron text-[#364442] text-4xl'>AI</p>
+              </div>
+              <img className='ml-52 mt-36 group-hover:mt-32 scale-[136%] rounded-2xl transition-all
+                duration-700 ease-in-out' 
+                src={design} alt='Design Image'
+                />
+          </div>
+          {/* Right */}
+          <div className="w-[35%] h-[100%] hover:mt-1 bg-[#000000] hover:bg-[#1c1c1c] group relative max-sm:hidden mx-5
+            rounded-[70px] overflow-hidden transition-all duration-500 ease-in-out shadow-xs hover:shadow-lg"
+          >
+            <div className='mr-12 mt-10'>
+              <p className='flex justify-end text-white text-xl tracking-widest pb-1'>My</p>
+              <p className='flex justify-end font-acron text-white text-4xl'>WEB3</p>
+            </div>
+            <img className='ml-52 mt-32 group-hover:mt-28 scale-[170%] rounded-2xl transition-all
+              duration-700 ease-in-out' 
+              src={figma} alt='Locale Image'
+              />
+          </div>
         </div>
-        <div className="w-2/3 bg-red-500 relative max-sm:hidden mx-5 rounded-[70px]">
-        
-        </div>
-      </div>
+      </div> 
       <Footer/>
     </div>    
     
