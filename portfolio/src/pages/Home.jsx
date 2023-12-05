@@ -1,6 +1,10 @@
 import React from 'react'
 import { Nav } from '../components/Nav'
 import { Footer } from '../components/Footer';
+import { locale } from '../assets/images';
+import { simon } from '../assets/images';
+import { design } from '../assets/images';
+import { figma } from '../assets/images';
 
 export const Home = () => {
   return (
@@ -24,20 +28,63 @@ export const Home = () => {
         </p>
       </div>
       <div>
+        {/* Top Section */}
         <div className="h-[80vh] flex relative py-10 px-4">
-          <div className="w-1/3 bg-pry relative max-sm:hidden mx-5 rounded-[70px]">
-
+        {/* Top Left */}
+          <div className="w-[35%] h-[100%] hover:mt-1 bg-[#d094e5] hover:bg-[#dba1f1] group relative max-sm:hidden mx-5
+            rounded-[70px] overflow-hidden transition-all duration-500 ease-in-out shadow-xs hover:shadow-lg"
+          >
+            <div className='mr-12 mt-10'>
+              <p className='flex justify-end text-[#364442] text-xl tracking-widest pb-1'>Visit</p>
+              <p className='flex justify-end font-acron text-[#364442] text-4xl'>SITES</p>
+            </div>
+            <img className='ml-52 mt-36 group-hover:mt-32 scale-[170%] rounded-2xl transition-all
+              duration-700 ease-in-out' 
+              src={locale} alt='Locale Image'
+              />
           </div>
-          <div className="w-2/3 bg-red-500 relative max-sm:hidden mx-5 rounded-[70px]">
-          
+        {/* Top Right */}
+          <div className="w-[65%] h-[100%] hover:mt-1 bg-[#8ACDD7] hover:bg-[#9adfea] group relative max-sm:hidden mx-5
+            rounded-[70px] overflow-hidden transition-all duration-500 ease-in-out shadow-xs hover:shadow-lg"
+          >
+            <div className='mr-12 mt-10'>
+              <p className='flex justify-end text-[#364442] text-xl tracking-widest pb-1'>Play</p>
+              <p className='flex justify-end font-acron text-[#364442] text-4xl'>GAMES</p>
+            </div>
+            <img className='ml-52 mt-36 group-hover:mt-32 scale-[139%] rounded-2xl transition-all
+              duration-700 ease-in-out' 
+              src={simon} alt='Locale Image'
+              />
           </div>
         </div>
-        <div className="h-[80vh] flex relative pt-20 pb-10 px-4">        
-          <div className="w-2/3 bg-red-500 relative max-sm:hidden mx-5 rounded-[70px]">
-          
-          </div>
-          <div className="w-1/3 bg-pry relative max-sm:hidden mx-5 rounded-[70px]">
 
+        {/* Bottom Section */}
+        <div className="h-[80vh] flex relative py-10 px-4">
+          {/* Bottom Left */}
+          <div className="w-[65%] h-[100%] hover:mt-1 bg-[#F9F9E0] hover:bg-[#fafae3] group relative max-sm:hidden mx-5
+              rounded-[70px] overflow-hidden transition-all duration-500 ease-in-out shadow-xs hover:shadow-lg"
+            >
+              <div className='mr-12 mt-10'>
+                <p className='flex justify-end text-[#364442] text-xl tracking-widest pb-1'>View</p>
+                <p className='flex justify-end font-acron text-[#364442] text-4xl'>DESIGNS</p>
+              </div>
+              <img className='ml-52 mt-36 group-hover:mt-32 scale-[136%] rounded-2xl transition-all
+                duration-700 ease-in-out' 
+                src={design} alt='Design Image'
+                />
+          </div>
+          {/* Bottom right */}
+          <div className="w-[35%] h-[100%] hover:mt-1 bg-[#a3d9ca] hover:bg-[#afe4d6] group relative max-sm:hidden mx-5
+            rounded-[70px] overflow-hidden transition-all duration-500 ease-in-out shadow-xs hover:shadow-lg"
+          >
+            <div className='mr-12 mt-10'>
+              <p className='flex justify-end text-[#364442] text-xl tracking-widest pb-1'>See</p>
+              <p className='flex justify-end font-acron text-[#364442] text-4xl'>FIGMA</p>
+            </div>
+            <img className='ml-52 mt-36 group-hover:mt-32 scale-[170%] rounded-2xl transition-all
+              duration-700 ease-in-out' 
+              src={figma} alt='Locale Image'
+              />
           </div>
         </div>
       </div> 
