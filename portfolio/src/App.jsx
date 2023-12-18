@@ -10,7 +10,7 @@ import {
   Routes,
   Route
 } from "react-router-dom";
-import { Topme } from "./pages/topme/Topme";
+// import { Topme } from "./pages/topme/Topme";
 function App() {
   return (
     <Router>
@@ -19,7 +19,7 @@ function App() {
         <Route path="/about" element={<About/>} />
         <Route path="/play" element={<Play/>} />
         <Route path="/notes" element={<Notes/>} />
-        <Route path="/topme" element={<Topme/>} />
+        {/* <Route path="/topme" element={<Topme/>} /> */}
         <Route path="*" element= {<Error/>} />
       </Routes>
     </Router>
