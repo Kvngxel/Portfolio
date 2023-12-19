@@ -11,18 +11,18 @@ export const Home = () => {
   return (
     <div className="bg-[#ede7de] pt-10 pb-40 w-[100%]">
       <Nav/>
-      <div className='px-32 mt-4'>
-        <div className='flex justify-end pr-36 mt-16 mb-[-40px]'>
+      <div className='px-7 md:px-32 mt-4'>
+        <div className='flex justify-end pr-36 mt-16 mb-[-40px] invisible md:visible absolute md:relative'>
           <svg fill="none" height="68" viewBox="0 0 68 68" width="68" xmlns="http://www.w3.org/2000/svg"><path d="m29.201 4.40976c1.4024-4.795399 8.1956-4.795399 9.598 0l4.8413 16.55444c.4787 1.6368 1.7587 2.9168 3.3955 3.3955l16.5544 4.8413c4.7954 1.4024 4.7954 8.1956 0 9.598l-16.5544 4.8413c-1.6368.4787-2.9168 1.7587-3.3955 3.3955l-4.8413 16.5544c-1.4024 4.7954-8.1956 4.7954-9.598 0l-4.8413-16.5544c-.4787-1.6368-1.7587-2.9168-3.3955-3.3955l-16.55444-4.8413c-4.795399-1.4024-4.795399-8.1956 0-9.598l16.55444-4.8413c1.6368-.4787 2.9168-1.7587 3.3955-3.3955z" fill="#fff"/></svg>
         </div>
-        <div className='mt-14'>
-          <p className='text-center text-3xl md:text-[17vh] text-pry leading-none font-bold font-acron'>Hi. I'm Excel.</p>
-          <p className='text-center md:text-[17vh] text-pry leading-none font-bold font-acron'>A Developer.</p>
+        <div className='mt-[30%] mb-[7%] md:mt-14'>
+          <p className='pb-1 md:pb-0 text-center text-[5vh] md:text-[17vh] text-pry leading-none font-bold md:font-bold font-acron'>Hi. I'm Excel.</p>
+          <p className='text-center text-[5vh] md:text-[17vh] text-pry leading-none font-bold font-acron'>A Developer.</p>
         </div>
-        <div className='flex justify-start pl-28'>
+        <div className='flex justify-start pl-28 invisible md:visible absolute md:relative'>
           <svg fill="none" height="68" viewBox="0 0 68 68" width="68" xmlns="http://www.w3.org/2000/svg"><path d="m29.201 4.40976c1.4024-4.795399 8.1956-4.795399 9.598 0l4.8413 16.55444c.4787 1.6368 1.7587 2.9168 3.3955 3.3955l16.5544 4.8413c4.7954 1.4024 4.7954 8.1956 0 9.598l-16.5544 4.8413c-1.6368.4787-2.9168 1.7587-3.3955 3.3955l-4.8413 16.5544c-1.4024 4.7954-8.1956 4.7954-9.598 0l-4.8413-16.5544c-.4787-1.6368-1.7587-2.9168-3.3955-3.3955l-16.55444-4.8413c-4.795399-1.4024-4.795399-8.1956 0-9.598l16.55444-4.8413c1.6368-.4787 2.9168-1.7587 3.3955-3.3955z" fill="#fff"/></svg>
         </div>
-        <p className='text-center md:px-52 pb-4 text-xl text-pry font-body font-medium'>
+        <p className='pt-5 md:pt-0 text-center md:px-52 pb-4 text-sm md:text-xl text-pry font-body font-medium'>
           Blending code with a love for sports, I create immersive digital experiences
           that are engaging, accessible, and user-focused.
         </p>
