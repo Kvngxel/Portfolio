@@ -27,16 +27,17 @@ export const Home = () => {
           that are engaging, accessible, and user-focused.
         </p>
       </div>
+      {/* Top Section */}
       <div>
-        {/* Top Section */}
-        <div className="h-[80vh] flex relative py-10 px-4">
+        <div className="h-[80vh] flex relative py-10 px-2 md:px-4">
         {/* Top Left */}
-          <Link to={''} target="_blank" className="w-[35%] h-[100%] hover:mt-1 bg-[#d094e5] hover:bg-[#dba1f1] group relative max-sm:hidden mx-5
-            rounded-[70px] overflow-hidden transition-all duration-500 ease-in-out shadow-xs hover:shadow-lg"
+          <Link to={''} target="_blank" className="md:w-[35%] h-[100%] hover:mt-1 bg-[#d094e5]
+            hover:bg-[#dba1f1] group relative mx-5 rounded-2xl md:rounded-[70px] overflow-hidden
+              transition-all duration-500 ease-in-out shadow-xs hover:shadow-lg"
           >
-            <div className='mr-12 mt-10'>
-              <p className='flex justify-end text-[#364442] text-xl tracking-widest pb-1'>Visit</p>
-              <p className='flex justify-end font-acron text-[#364442] text-4xl'>SITES</p>
+            <div className='mr-5 md:mr-12 mt-5 md:mt-10'>
+              <p className='flex justify-end text-[#364442] text-lg md:text-xl tracking-widest pb-1'>Visit</p>
+              <p className='flex justify-end font-acron text-[#364442] text-3xl md:text-4xl'>SITES</p>
             </div>
             <img className='ml-52 mt-36 group-hover:mt-32 scale-[170%] rounded-2xl transition-all
               duration-700 ease-in-out' 
