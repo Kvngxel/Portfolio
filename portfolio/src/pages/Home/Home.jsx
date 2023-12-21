@@ -11,62 +11,72 @@ export const Home = () => {
   return (
     <div className="bg-[#ede7de] pt-10 pb-40 w-[100%]">
       <Nav/>
-      <div className='px-7 md:px-32 mt-4'>
+      <div className='px-6 md:px-32 mt-4'>
         <div className='flex justify-end pr-36 mt-16 mb-[-40px] invisible md:visible absolute md:relative'>
           <svg fill="none" height="68" viewBox="0 0 68 68" width="68" xmlns="http://www.w3.org/2000/svg"><path d="m29.201 4.40976c1.4024-4.795399 8.1956-4.795399 9.598 0l4.8413 16.55444c.4787 1.6368 1.7587 2.9168 3.3955 3.3955l16.5544 4.8413c4.7954 1.4024 4.7954 8.1956 0 9.598l-16.5544 4.8413c-1.6368.4787-2.9168 1.7587-3.3955 3.3955l-4.8413 16.5544c-1.4024 4.7954-8.1956 4.7954-9.598 0l-4.8413-16.5544c-.4787-1.6368-1.7587-2.9168-3.3955-3.3955l-16.55444-4.8413c-4.795399-1.4024-4.795399-8.1956 0-9.598l16.55444-4.8413c1.6368-.4787 2.9168-1.7587 3.3955-3.3955z" fill="#fff"/></svg>
         </div>
         <div className='mt-[30%] mb-[7%] md:mt-14'>
-          <p className='pb-1 md:pb-0 text-center text-[5vh] md:text-[17vh] text-pry leading-none font-bold md:font-bold font-acron'>Hi. I'm Excel.</p>
-          <p className='text-center text-[5vh] md:text-[17vh] text-pry leading-none font-bold font-acron'>A Developer.</p>
+          <p className='pb-1 md:pb-0 text-center text-[6vh] md:text-[17vh] text-pry leading-none font-bold md:font-bold font-acron'>Hi. I'm Excel.</p>
+          <p className='text-center text-[6vh] md:text-[17vh] text-pry leading-none font-bold font-acron'>A Developer.</p>
         </div>
         <div className='flex justify-start pl-28 invisible md:visible absolute md:relative'>
           <svg fill="none" height="68" viewBox="0 0 68 68" width="68" xmlns="http://www.w3.org/2000/svg"><path d="m29.201 4.40976c1.4024-4.795399 8.1956-4.795399 9.598 0l4.8413 16.55444c.4787 1.6368 1.7587 2.9168 3.3955 3.3955l16.5544 4.8413c4.7954 1.4024 4.7954 8.1956 0 9.598l-16.5544 4.8413c-1.6368.4787-2.9168 1.7587-3.3955 3.3955l-4.8413 16.5544c-1.4024 4.7954-8.1956 4.7954-9.598 0l-4.8413-16.5544c-.4787-1.6368-1.7587-2.9168-3.3955-3.3955l-16.55444-4.8413c-4.795399-1.4024-4.795399-8.1956 0-9.598l16.55444-4.8413c1.6368-.4787 2.9168-1.7587 3.3955-3.3955z" fill="#fff"/></svg>
         </div>
-        <p className='pt-5 md:pt-0 text-center md:px-52 pb-4 text-sm md:text-xl text-pry font-body font-medium'>
+        <p className='pt-1 md:pt-0 text-center md:px-52 pb-4 text-sm md:text-xl text-pry font-body font-medium'>
           Blending code with a love for sports, I create immersive digital experiences
           that are engaging, accessible, and user-focused.
         </p>
       </div>
       {/* Top Section */}
       <div>
-        <div className="h-[80vh] flex relative py-10 px-2 md:px-4">
+        <div className="h-[80vh] md:flex relative py-10 px-2 md:px-4">
         {/* Top Left */}
-          <Link to={''} target="_blank" className="md:w-[35%] h-[100%] hover:mt-1 bg-[#d094e5]
-            hover:bg-[#dba1f1] group relative mx-5 rounded-2xl md:rounded-[70px] overflow-hidden
-              transition-all duration-500 ease-in-out shadow-xs hover:shadow-lg"
+          <Link to={''} target="_blank" className="flex md:w-[35%] h-[51%] md:h-[100%] hover:mt-1 bg-[#d094e5]
+            hover:bg-[#dba1f1] group relative mx-5 rounded-3xl md:rounded-[70px] overflow-hidden
+              transition-all duration-500 ease-in-out shadow-xs hover:shadow-lg mb-14 md:mb-0"
           >
-            <div className='mr-5 md:mr-12 mt-5 md:mt-10'>
-              <p className='flex justify-end text-[#364442] text-lg md:text-xl tracking-widest pb-1'>Visit</p>
-              <p className='flex justify-end font-acron text-[#364442] text-3xl md:text-4xl'>SITES</p>
+            <div>
+              <div className='mr-5 md:mr-12 mt-5 md:mt-10'>
+                <p className='flex justify-end text-[#364442] text-lg md:text-xl tracking-widest pb-1'>Visit</p>
+                <p className='flex justify-end font-acron text-[#364442] text-3xl md:text-4xl'>SITES</p>
+              </div>
+              <img className='ml-44 mt-28 md:ml-52 md:mt-36 group-hover:mt-24 group-hover:md:mt-32 scale-[170%] rounded-2xl transition-all
+                duration-700 ease-in-out' 
+                src={locale} alt='Locale Image'
+                />
             </div>
-            <img className='ml-52 mt-36 group-hover:mt-32 scale-[170%] rounded-2xl transition-all
-              duration-700 ease-in-out' 
-              src={locale} alt='Locale Image'
-              />
           </Link>
         {/* Top Right */}
-          <Link to={'https://simon-game-one-psi.vercel.app'} target="_blank" className="w-[65%] h-[100%]
-            hover:mt-1 bg-[#8ACDD7] hover:bg-[#9adfea] group relative max-sm:hidden mx-5 rounded-[70px]
+          <Link to={'https://simon-game-one-psi.vercel.app'} target="_blank" className="flex md:w-[65%] h-[51%] md:h-[100%]
+            hover:mt-1 bg-[#8ACDD7] hover:bg-[#9adfea] group relative mx-5 rounded-3xl md:rounded-[70px]
             overflow-hidden transition-all duration-500 ease-in-out
             shadow-xs hover:shadow-lg"
           >
-            <div className='mr-12 mt-10'>
-              <p className='flex justify-end text-[#364442] text-xl tracking-widest pb-1'>Play</p>
-              <p className='flex justify-end font-acron text-[#364442] text-4xl'>GAMES</p>
-            </div>
-            <img className='ml-52 mt-36 group-hover:mt-32 scale-[139%] rounded-2xl transition-all
-              duration-700 ease-in-out' 
-              src={simon} alt='Locale Image'
-              />
+            <div>
+            <div className='mr-5 md:mr-12 mt-7 md:mt-10'>
+                <p className='flex justify-end text-[#364442] text-lg md:text-xl tracking-widest pb-1'>Play</p>
+                <p className='flex justify-end font-acron text-[#364442] text-3xl md:text-4xl'>GAMES</p>
+              </div>
+              <img className='ml-28 mt-20 md:ml-52 md:mt-36 group-hover:mt-16 group-hover:md:mt-32 scale-[139%] rounded-2xl transition-all
+                duration-700 ease-in-out' 
+                src={simon} alt='Locale Image'
+                />
+              </div>
           </Link>
         </div>
 
         {/* Bottom Section */}
-        <div className="h-[80vh] flex relative py-10 px-4">
+        <div className="h-[80vh] md:flex relative py-10 px-4">
           {/* Bottom Left */}
-          <Link to={''} target="_blank" className="w-[65%] h-[100%] hover:mt-1 bg-[#F9F9E0] hover:bg-[#fafae3] group relative max-sm:hidden mx-5
-              rounded-[70px] overflow-hidden transition-all duration-500 ease-in-out shadow-xs hover:shadow-lg"
+          <Link to={''} target="_blank" className="flex md:w-[65%] h-[51%] md:h-[100%] hover:mt-1 bg-[#F9F9E0]
+              hover:bg-[#fafae3] group relative mx-5 rounded-3xl md:rounded-[70px] overflow-hidden
+                transition-all duration-500 ease-in-out shadow-xs hover:shadow-lg"
             >
+            {/* className="flex md:w-[65%] h-[51%] md:h-[100%]
+            hover:mt-1 bg-[#8ACDD7] hover:bg-[#9adfea] group relative mx-5 rounded-3xl md:rounded-[70px]
+            overflow-hidden transition-all duration-500 ease-in-out
+            shadow-xs hover:shadow-lg" */}
+            <div>
               <div className='mr-12 mt-10'>
                 <p className='flex justify-end text-[#364442] text-xl tracking-widest pb-1'>View</p>
                 <p className='flex justify-end font-acron text-[#364442] text-4xl'>DESIGNS</p>
@@ -75,6 +85,7 @@ export const Home = () => {
                 duration-700 ease-in-out' 
                 src={design} alt='Design Image'
                 />
+            </div>
           </Link>
           {/* Bottom right */}
           <Link to={''} target="_blank" className="w-[35%] h-[100%] hover:mt-1 bg-[#a3d9ca] hover:bg-[#afe4d6] group relative max-sm:hidden mx-5
