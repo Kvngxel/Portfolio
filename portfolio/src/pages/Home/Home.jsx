@@ -30,7 +30,7 @@ export const Home = () => {
       
       <div>
         {/* Top Section */}
-        <div className="h-[80vh] md:flex relative mb-24 md:mb-0 py-10 px-2 md:px-4">
+        <div className="h-[80vh] md:flex relative mb-24 md:mb-0 pt-10 md:pb-10 px-2 md:px-4">
         {/* Top Left */}
           <Link to={''} target="_blank" className="flex md:w-[35%] h-[51%] md:h-[100%] hover:mt-1 bg-[#d094e5]
             hover:bg-[#dba1f1] group relative mx-5 rounded-3xl md:rounded-[70px] overflow-hidden
@@ -66,16 +66,16 @@ export const Home = () => {
           </Link>
         </div>
         {/* Bottom Section */}
-        <div className="h-[80vh] md:flex relative md:py-10 px-4">
+        <div className="h-[80vh] md:flex relative pt-12 md:py-10 px-4">
           {/* Bottom Left */}
           <Link to={''} target="_blank" className="flex md:w-[65%] h-[50%] md:h-[100%] hover:mt-1 bg-[#F9F9E0]
               hover:bg-[#fafae3] group relative mx-3 md:mx-5 rounded-3xl md:rounded-[70px] overflow-hidden
-                transition-all duration-500 ease-in-out shadow-xs hover:shadow-lg mb-20 md:mb-0"
+                transition-all duration-500 ease-in-out shadow-xs hover:shadow-lg mb-[4rem] md:mb-0"
             >
             <div>
               <div className='mr-5 md:mr-12 mt-7 md:mt-10'>
-                <p className='flex justify-end text-[#364442] text-xl tracking-widest pb-1'>View</p>
-                <p className='flex justify-end font-acron text-[#364442] text-4xl'>DESIGNS</p>
+                <p className='flex justify-end text-[#364442] text-lg md:text-xl tracking-widest pb-1'>View</p>
+                <p className='flex justify-end font-acron text-[#364442] text-3xl md:text-4xl'>DESIGNS</p>
               </div>
               <img className='ml-24 mt-20 md:ml-52 md:mt-36 group-hover:mt-16 group-hover:md:mt-32 scale-[136%] rounded-2xl transition-all
                 duration-700 ease-in-out' 
@@ -90,11 +90,11 @@ export const Home = () => {
                 ease-in-out shadow-xs hover:shadow-lg"
           >
             <div>
-            <div className='mr-5 md:mr-12 mt-7 md:mt-10'>
-                <p className='flex justify-end text-[#364442] text-xl tracking-widest pb-1'>See</p>
-                <p className='flex justify-end font-acron text-[#364442] text-4xl'>FIGMA</p>
-              </div>
-              <img className='ml-52 mt-32 group-hover:mt-28 scale-[170%] rounded-2xl transition-all
+              <div className='mr-5 md:mr-12 mt-7 md:mt-10'>
+                  <p className='flex justify-end text-[#364442] text-lg md:text-xl tracking-widest pb-1'>See</p>
+                  <p className='flex justify-end font-acron text-[#364442] text-3xl md:text-4xl'>FIGMA</p>
+                </div>
+              <img className='ml-40 md:ml-52 mt-28 md:mt-32 group-hover:mt-24 md:group-hover:mt-28 scale-[170%] rounded-2xl transition-all
                 duration-700 ease-in-out' 
                 src={figma} alt='Locale Image'
                 />
@@ -128,7 +128,8 @@ export const Home = () => {
             </div>
           </Link>
           {/* Right */}
-          <Link to={''} target="_blank" className="flex md:w-[35%] h-[51%] md:h-[100%] hover:mt-1  bg-[#000000] hover:bg-[#1c1c1c]  group relative mx-3 md:mx-5
+          <Link to={''} target="_blank" className="flex md:w-[35%] h-[51%] md:h-[100%] hover:mt-1
+               bg-[#000000] hover:bg-[#1c1c1c]  group relative mx-3 md:mx-5
                 rounded-3xl md:rounded-[70px] overflow-hidden transition-all duration-50
                 ease-in-out shadow-xs hover:shadow-lg"
           >
@@ -137,7 +138,7 @@ export const Home = () => {
                 <p className='flex justify-end text-[#ffffff] text-xl tracking-widest pb-1'>My</p>
                 <p className='flex justify-end font-acron text-[#ffffff] text-4xl'>WEB3</p>
               </div>
-              <img className='ml-52 mt-32 group-hover:mt-28 scale-[170%] rounded-2xl transition-all
+              <img className='ml-40 md:ml-52 mt-28 md:mt-32 group-hover:mt-24 md:group-hover:mt-28 scale-[170%] rounded-2xl transition-all
                 duration-700 ease-in-out' 
                 src={figma} alt='Locale Image'
                 />
