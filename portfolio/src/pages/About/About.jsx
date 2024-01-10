@@ -15,7 +15,8 @@ export const About = () => {
         {/* Mid Section */}
         <div className='md:flex mx-10 md:ml-[11%] md:mr-[8%] my-24'>
           {/* Top Left */}
-          <div className='relative h-[450px] group md:w-[30%] rounded-t-full overflow-hidden'>
+          {/* Remember to add the hover ease transition */}
+          <div className='relative h-[430px] group md:w-[30%] rounded-t-full overflow-hidden md:mt-[-25px]'>
             <div className='bg-pry h-20 w-full absolute bottom-0 z-10'>
               <div className='flex ml-4 mt-4'>
                 <svg className='ml-7 opacity-[.8]' fill='#ede7de' width="42" height="42" viewBox="0 0 41 40"  xmlns="http://www.w3.org/2000/svg">
