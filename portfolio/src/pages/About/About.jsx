@@ -39,16 +39,16 @@ export const About = () => {
           {/* Top Right */}
           <div className='md:w-[70%] md:mx-10 md:px-12 max-sm:mt-10'>
             <p className='pb-1 md:pb-0 text-left text-[3vh] md:text-[7vh] text-pry leading-[120%] font-bold md:font-bold font-acron'>I'm a Fullstack Developer working remotely from 26°C Abuja, Nigeria.</p>
-            <p className='text-pry font-semibold md:font-medium font-body text-[16px] md:text-xl my-6'>
+            <p className='text-pry font-semibold md:font-medium font-body text-[17px] md:text-xl my-6'>
               In the last 5 years, I've excelled in digital design, focusing on front-end development,
               email, marketing, and app UI/UX. As a developer, I've worn multiple hats,
               showcasing my versatility and expertise.</p>
-            <p className='text-pry font-semibold md:font-medium font-body text-[16px] md:text-xl my-6'>
+            <p className='text-pry font-semibold md:font-medium font-body text-[17px] md:text-xl my-6'>
               Currently, my emphasis is on spearheading design efforts for freelance projects. I specialize in enabling donors to directly support the freelance community</p>
           </div>
         </div>
        </div>
-       <div className='mx-11 md:mx-48 mt-32 md:mt-48 '>
+       <div className='mx-11 md:mx-48 md:mt-48 '>
         <p className='pb-1 md:pb-0 text-left text-[3vh] md:text-[7vh] text-pry leading-[120%] font-bold md:font-bold font-acron'>I'm open to collaboration if your focus aligns with growth, sustainability,
           and promoting clean and efficient work practices.</p>
         <p className='text-pry font-semibold md:font-medium font-body text-[17px] md:text-xl my-6 md:mr-10'>
