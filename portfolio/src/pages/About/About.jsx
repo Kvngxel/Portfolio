@@ -127,13 +127,13 @@ export const About = () => {
       </div>
       {/* Bottom Images */}
       <div className='flex mt-20 md:mt-32 md:mx-16'>
-        <div className='relative md:w-2/3 md:mx-2 md:rounded-3xl bg-white group overflow-hidden'>
+        <div className='relative md:w-2/3 md:mx-2 md:rounded-3xl bg-[#f1ece4] group overflow-hidden'>
           <div className='bg-[#ede7de] text-pry rounded-lg ml-7 mb-5 px-5 py-2 h-10 absolute bottom-0 z-10 hidden group-hover:block'>
             <p>Abuja, Nigeria</p>
           </div>
           <img src='https://i.pinimg.com/originals/4e/30/60/4e30608a2fcb1a6d5f6cfdb47b070cfd.jpg'/>
         </div>
-        <div className='max-sm:hidden relative w-1/3 mx-2 rounded-3xl bg-white group overflow-hidden'>
+        <div className='max-sm:hidden relative w-1/3 mx-2 rounded-3xl bg-[#f1ece4] group overflow-hidden'>
           <div className='bg-[#ede7de] text-pry rounded-lg ml-7 mb-5 px-5 py-2 h-10 absolute bottom-0 z-10 hidden group-hover:block'>
             <p>Abuja, Nigeria</p>
           </div>
