@@ -27,11 +27,10 @@ export const Home = () => {
           that are engaging, accessible, and user-focused.
         </p>
       </div>
-      
+      {/* Top Section */}
       <div>
-        {/* Top Section */}
         <div className="h-[80vh] md:flex relative mb-24 md:mb-0 pt-10 md:pb-10 px-2 md:px-4">
-        {/* Top Left */}
+        {/* Top Left ( Sites ) */}
           <Link to={''} target="_blank" className="flex md:w-[35%] h-[51%] md:h-[100%] hover:mt-1 bg-[#d094e5]
             hover:bg-[#dba1f1] group relative mx-5 rounded-3xl md:rounded-[70px] overflow-hidden
               transition-all duration-500 ease-in-out shadow-xs hover:shadow-lg mb-16 md:mb-0"
@@ -47,8 +46,8 @@ export const Home = () => {
                 />
             </div>
           </Link>
-        {/* Top Right */}
-          <Link to={'https://simon-game-one-psi.vercel.app'} target="_blank" className="flex md:w-[65%] h-[51%] md:h-[100%]
+        {/* Top Right ( Games ) */}
+          <Link to={"/play"} className="flex md:w-[65%] h-[51%] md:h-[100%]
             hover:mt-1 bg-[#8ACDD7] hover:bg-[#9adfea] group relative mx-5 rounded-3xl md:rounded-[70px]
             overflow-hidden transition-all duration-500 ease-in-out
             shadow-xs hover:shadow-lg"
