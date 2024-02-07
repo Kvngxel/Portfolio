@@ -33,7 +33,7 @@ export const Play = () => {
           </div>
         </div>
         <p className='text-pry text-center font-semibold md:font-medium font-body text-[17px] md:text-xl my-6 mx-10 md:mx-80'>
-          A collection of tools and sites I've created, designed to be helpful, fun, & sometimes just a little bit weird.
+          A collection of tools and sites I've created, designed to be helpful, fun, & sometimes just a little bit weird. Enjoy.
         </p>
         {/* Plays */}
         <div class='flex mx-5 md:mx-10 my-16 justify-center flex-wrap'>
