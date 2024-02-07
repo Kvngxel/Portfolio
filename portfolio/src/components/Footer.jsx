@@ -33,7 +33,7 @@ export const Footer = () => {
         </div>
       </div> 
       <div className='max-sm:flex max-sm:justify-center mt-80 md:mt-0 md:ml-64 pb-10 font-body text-pry font-medium'>
-        <p className='text-lg'>© {currentYear} Eze Excel</p>
+        <p className='text-lg'>© {currentYear} El</p>
       </div>
     </div>
   )
