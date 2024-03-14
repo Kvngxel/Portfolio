@@ -17,7 +17,7 @@ export const Home = () => {
         </div>
         <div className='mt-[30%] mb-[7%] md:mt-14 md:mb-2'>
           <p className='pb-1 md:pb-0 text-center text-[6vh] md:text-[17vh] text-pry leading-none font-bold md:font-bold font-acron'>Hi. I'm Excel.</p>
-          <p className='text-center text-[6vh] md:text-[17vh] text-pry leading-none font-bold font-acron'>A Developer.</p>
+          <p className='text-center text-[6vh] md:text-[17vh] text-pry leading-none font-bold font-acron'>Your Developer.</p>
         </div>
         <div className='flex justify-start pl-28 invisible md:visible absolute md:relative'>
           <svg fill="none" height="68" viewBox="0 0 68 68" width="68" xmlns="http://www.w3.org/2000/svg"><path d="m29.201 4.40976c1.4024-4.795399 8.1956-4.795399 9.598 0l4.8413 16.55444c.4787 1.6368 1.7587 2.9168 3.3955 3.3955l16.5544 4.8413c4.7954 1.4024 4.7954 8.1956 0 9.598l-16.5544 4.8413c-1.6368.4787-2.9168 1.7587-3.3955 3.3955l-4.8413 16.5544c-1.4024 4.7954-8.1956 4.7954-9.598 0l-4.8413-16.5544c-.4787-1.6368-1.7587-2.9168-3.3955-3.3955l-16.55444-4.8413c-4.795399-1.4024-4.795399-8.1956 0-9.598l16.55444-4.8413c1.6368-.4787 2.9168-1.7587 3.3955-3.3955z" fill="#fff"/></svg>
